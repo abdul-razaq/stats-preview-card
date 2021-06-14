@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+:root {
+	--dark-blue-primary: #090b1a;
+	--dark-blue-secondary: #1b1938;
+	--accent: #aa5cdb;
+	--primary-white: #ffffff;
+	--secondary-white: #ffffffbf;
+	--tertiary-white: #ffffff99;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.5rem;
+	font-family: 'Inter', sans-serif;
+	/* font-family: 'Lexend Deca', sans-serif; */
+}
+
+
+@media screen and (min-width: 375px) {
+	
+}
